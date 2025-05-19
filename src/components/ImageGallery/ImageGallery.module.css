@@ -36,4 +36,15 @@
       overflow: hidden;
     }
 
-        
+@media (max-width: 900px) {
+  .galleryItem {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+/* Mobil: 1 sütun */
+@media (max-width: 500px) {
+  .galleryItem {
+    width: 100%;
+  }
+}

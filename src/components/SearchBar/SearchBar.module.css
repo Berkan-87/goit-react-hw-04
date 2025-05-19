@@ -63,3 +63,48 @@ button:active {
   box-shadow: inset 5px 5px 10px #b8b8b8, inset -5px -5px 10px #ffffff;
 }
 
+@media (max-width: 768px) {
+  form {
+    min-width: auto;
+    /* min-width kaldırıldı */
+    max-width: 90vw;
+    /* genişlik viewport'un %90'ı */
+    gap: 8px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+/* Mobil ve altı (480px ve aşağısı) */
+@media (max-width: 480px) {
+  .searchBar {
+    padding: 10px 8px;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 10px;
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}

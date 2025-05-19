@@ -24,4 +24,26 @@
     box-shadow: inset 5px 5px 10px #b8b8b8, inset -5px -5px 10px #ffffff;
   }
 
+    /* Tablet ve altı: 768px ve daha küçük ekranlar için */
+    @media (max-width: 768px) {
+      .loadMoreBtn {
+        padding: 10px 30px;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+    }
   
+    /* Mobil ve altı: 480px ve daha küçük ekranlar için */
+    @media (max-width: 480px) {
+      .loadMoreBtn {
+        padding: 8px 20px;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        width: 100%;
+        /* Buton genişliği tam ekran */
+        max-width: 300px;
+        /* Maksimum genişlik */
+        box-sizing: border-box;
+      }
+    }
+    
