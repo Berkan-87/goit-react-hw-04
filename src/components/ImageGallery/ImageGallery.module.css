@@ -25,7 +25,7 @@
       gap: 16px;
       margin-top: 85px;
       justify-content: center;
-      /* kartları ortalar */
+      
     }
   
     .galleryItem {
@@ -36,20 +36,4 @@
       overflow: hidden;
     }
 
-        @media (max-width: 1024px) {
-          .galleryItem {
-            width: calc((100% - 32px) / 3);
-          }
-        }
-    
-        @media (max-width: 768px) {
-          .galleryItem {
-            width: calc((100% - 16px) / 2);
-          }
-        }
-    
-        @media (max-width: 480px) {
-          .galleryItem {
-            width: 100%;
-          }
-        }
+        

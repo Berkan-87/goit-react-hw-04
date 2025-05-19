@@ -46,3 +46,20 @@ ol {
 }
 
 
+@media (max-width: 1024px) {
+  .galleryItem {
+    width: calc((100% - 32px) / 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .galleryItem {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .galleryItem {
+    width: 100%;
+  }
+}
