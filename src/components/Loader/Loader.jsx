@@ -1,9 +1,9 @@
-import { Oval } from 'react-loader-spinner';
+import { ClipLoader } from 'react-spinners';
 import styles from './Loader.module.css';
 
 const Loader = () => (
   <div className={styles.loader}>
-    <Oval color="#00BFFF" height={80} width={80} />
+    <ClipLoader color="#00BFFF" size={80} />
   </div>
 );
 
