@@ -34,3 +34,12 @@
     max-width: 100%;
     max-height: 80vh;
   }
+
+  .app {
+    /* Temel sayfa stilleri */
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding-top: 70px;
+    /* navbar/üst bar yüksekliğine göre boşluk */
+  }
